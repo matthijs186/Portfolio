@@ -1,4 +1,98 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .nav-main {
+    width: 100%;
     display: flex;
     justify-content: space-around;
+    background-color: #898989;
+}
+
+.nav-main ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-main li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-main a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 60ms ease-out background-color;
+}
+
+.nav-main a:hover {
+    background-color: #acacac;
+    transition: 90ms ease-in background-color;
+}
+
+.section-title {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #cccccc;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+    padding: 10px 0;
+}
+
+.welcome-img {
+    display: flex;
+    margin: 10px;
+}
+
+.welcome-img img {
+    width: 350px;
+    height: 220px;
+    border: solid 3px #898989;
+}
+
+.welcome-text {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.welcome-text h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.about {
+    color: #5c5c5c;
+    font-weight: bold;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience h3 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.experience-skill > progress.mg-item {
+    margin: 4px 20px;
+    width: 40%;
+}
+
+.experience-exp > div.mg-item {
+    width: 40%;
+    /* margin: 7px 7px 15px 30px; */
+    font-weight: bold;
 }

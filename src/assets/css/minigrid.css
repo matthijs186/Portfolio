@@ -1,0 +1,10 @@
+.mg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mg > .mg-item {
+    box-sizing: border-box;
+    margin: 5px;
+}
