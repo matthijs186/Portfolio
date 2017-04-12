@@ -1,0 +1,30 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #cccccc;
+  padding: 10px 0;
+}
+
+.welcome-img {
+  display: flex;
+  margin: 10px;
+}
+
+.welcome-img img {
+  width: 350px;
+  height: 220px;
+  border: solid 3px #898989;
+}
+
+.welcome-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.welcome-text h1 {
+  font-size: 45px;
+  text-align: center;
+}

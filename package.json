@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio about myself from personal sprints @ Competa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthijs186/portfolio.git"
+  },
+  "keywords": [
+    "uncategorized"
+  ],
+  "author": "matthijs186",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/matthijs186/portfolio/issues"
+  },
+  "homepage": "https://github.com/matthijs186/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "dependencies": {
+    "normalize-scss": "^6.0.0"
+  }
+}

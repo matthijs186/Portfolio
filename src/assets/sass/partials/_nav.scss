@@ -1,0 +1,32 @@
+.nav-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #898989;
+}
+
+.nav-main ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-main li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-main a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 60ms ease-out background-color;
+}
+
+.nav-main a:hover {
+  background-color: #acacac;
+  transition: 90ms ease-in background-color;
+}
