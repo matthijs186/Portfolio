@@ -25,7 +25,5 @@
     "grunt-mkdir": "^1.0.0",
     "grunt-sass": "^2.0.0"
   },
-  "dependencies": {
-    "normalize-scss": "^6.0.0"
-  }
+  "dependencies": {}
 }
