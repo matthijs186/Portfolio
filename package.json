@@ -20,10 +20,8 @@
   },
   "homepage": "https://github.com/matthijs186/portfolio#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-mkdir": "^1.0.0",
-    "grunt-sass": "^2.0.0"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
   },
   "dependencies": {}
 }
