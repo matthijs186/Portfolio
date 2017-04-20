@@ -5,21 +5,20 @@
 1. Install modules.
 
    ```
-   npm i grunt-cli -g
+   npm i gulp-cli -g
    npm i
    ```
 
-2. Run Grunt.
+2. Run Gulp.
 
    ```
-   grunt
+   gulp
    ```
 
 
-## Grunt tasks
+## Gulp tasks
 
-Run each task with `grunt <task>`.
+Run each task with `gulp <task>`.
 
-- `mkdir` - Create the `src/assets/css` directory.
 - `sass` - Compile Sass files in `src/assets/sass/`.
-- `watch` - Watch Sass files for changes in `src/assets/sass/`.
+- `sass:watch` - Watch Sass files for changes in `src/assets/sass/`.
